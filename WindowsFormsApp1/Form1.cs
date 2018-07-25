@@ -30,6 +30,7 @@ namespace WindowsFormsApp1
 
             this.DrawToBitmap(qrCodeImage, pictureBox1.ClientRectangle);
             this.BackgroundImage = qrCodeImage;
+            pictureBox1.Visible = false;
             this.Refresh();
     
         }
